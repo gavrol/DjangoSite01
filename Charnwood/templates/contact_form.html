@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us {% endblock %}
+<br/>
+<hr/>
+
+{% block content %}
+	<br/>
+    <h1>Contact us</h1>
+	<br/>
+	
+	<p> Feel free to send an email </p>
+		
+    {% if form.errors %}
+        <p style="color: red;  font-weight:bold;  margin: 0 0 3px;  padding: 4px 5px;">
+            Please correct the error{{ form.errors|pluralize }} below.
+        </p>
+    {% endif %}
+
+    <form action="" method="post">
+    	<div class="FormTableEnv">
+        <table>
+            {{ form.as_table }}
+        </table>
+        </div>
+        {% csrf_token %}
+        <input style="color:#ee2e24; font-weight:bold;" type="submit" value="Submit">
+    </form>
+
+<br/><br/> <br/> <br/>
+{% endblock %}
+			

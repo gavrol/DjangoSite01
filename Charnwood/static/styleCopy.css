@@ -1,0 +1,126 @@
+
+/* ### GENERAL ### */
+* { margin: 0px; padding: 0px; }
+body { background: #FFFFFF /* #f5f5f5 url(../images/wapperbg.gif) repeat*/; 
+	font:13px Tahoma, Georgia,  Arial, Helvetica, sans-serif; 
+	color:#000000; 
+	padding:0px 0px 0px 0px; 
+	margin:0px 0px 0px 0px;  }
+
+/* ### GLOBAL CLASSES ### */
+.clear { clear: both; margin:0px; padding:0px; }
+
+/* 		WRAPPER 	*/
+#wrapper { 
+	position: relative; 
+	display: block; 
+	width: 100%; 
+	min-height: 100%; 
+	background:#FFFFFF; }
+
+
+
+/*  	HEADER CONTAINER    */
+#headerCntr { 
+	position: relative;  
+	height:30px; 
+	background:url(./images/page_bg_top_rpt.gif) repeat-x top center; }
+	
+.headerStyle {padding: 5px 0px 0px 30px;}
+.headerStyle a { font-size:12px; color:#FFFFFF; font-weight:bold; text-decoration:none; padding: 5px 20px 5px 20px;}
+.headerStyle a:hover {text-decoration:underline;}	
+
+.logo{background:#FFFFFF; padding: 10px 0px 10px 100px;}
+#logo{background:#FFFFFF; padding: 15px 0px 10px 80px;}
+#container1 {overflow: hidden;  background: #FFFFF;height:160px;}
+#logoPic{ position: right; float: right; 
+	background:url(./images/red_2.gif) repeat;
+	padding: 0px 0px 0px 0px;}
+	
+#HeaderTabs { 
+	position: relative;  
+	height:36px; 
+	background:url(./images/red_1.gif) repeat-x top center; }
+		
+	/* ### CONTENT CONTAINER ### */
+#contentCntrMain { overflow: hidden; float: center; background: url(./images/og_grey.gif) repeat; }
+#contentCntr { float: center; overflow: hidden; margin: 0 auto;
+	padding:0px 135px 0px 135px;}
+
+
+#mainContainer { overflow: hidden; margin: 0 auto;float: center; width:950px; background:#ffffff ; padding:20px 0px 0px 0px; }
+#mainContainer h1{ font:22px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; text-align:center; padding:0px 44px 0px 0px;}
+#mainContainer h4{ font:18px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; text-align:right; padding:0px 44px 0px 0px;}
+#mainContainer h2{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; font-weight:bold; text-align:left; padding:5px 44px 5px 0px;}
+#mainContainer h3{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; font-weight:bold; text-align:left; padding:0px 44px 0px 0px;}
+#mainContainer h6{ font: Tahoma, Georgia, Arial, Helvetica, sans-serif; text-align:left; }
+
+#mainContainer1 { overflow: hidden; float: left; width:450px; background:#ffffff ; padding:20px 10px 0px 0px; }
+#mainContainer1 h1{ font:22px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; text-align:center; padding:0px 44px 0px 0px;}
+#mainContainer1 h4{ font:18px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; text-align:right; padding:0px 44px 0px 0px;}
+#mainContainer1 h2{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; font-weight:bold; text-align:left; padding:5px 44px 5px 0px;}
+#mainContainer1 h3{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; font-weight:bold; text-align:left; padding:0px 44px 0px 0px;}
+#mainContainer1 h6{ font: Tahoma, Georgia, Arial, Helvetica, sans-serif; text-align:left; }
+
+#mainContainer2 { overflow: hidden; float: right; width:450px; background:#ffffff ; padding:20px 10px 0px 0px; }
+#mainContainer2 h1{ font:22px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; text-align:center; padding:0px 44px 0px 0px;}
+#mainContainer2 h4{ font:18px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; text-align:right; padding:0px 44px 0px 0px;}
+#mainContainer2 h2{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; font-weight:bold; text-align:left; padding:5px 44px 5px 0px;}
+#mainContainer2 h3{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; font-weight:bold; text-align:left; padding:0px 44px 0px 0px;}
+#mainContainer2 h6{ font: Tahoma, Georgia, Arial, Helvetica, sans-serif; text-align:left; }
+
+h1{ font:22px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; text-align:right; padding:0px 44px 0px 0px;}
+h4{ font:18px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; text-align:right; padding:0px 44px 0px 0px;}
+h2{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#7B6E6A; font-weight:bold; text-align:left; padding:5px 44px 5px 0px;}
+h3{ font:15px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#DC241F; font-weight:bold; text-align:left; padding:0px 44px 0px 0px;}
+h7{ font:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:##9a0000; font-weight:bold; text-align:left; padding:0px 44px 0px 0px;}
+
+h6{font:15px Arial, Helvetica, sans-serif; color:#9a0000; font-weight:bold; padding:0px 0px 5px 0px; margin:0px 0px 10px 0px;}
+
+#h5{font:18px Tahoma, Georgia, Arial, Helvetica, sans-serif; color:#4D4D4D; padding:0px 0px 0px 0px; border-bottom:1px solid #bebebe; margin:0px 0px 0px 0px;}
+
+.welcomeBox{ padding:4px 150px 10px 150px; float:center; width:550px; overflow:hidden;}
+			.welcomeBox img{ padding:10px 0px 10px 0px;}
+			.welcomeBox p{ 4px 150px 10px 150px;}
+			.welcomeBox a:hover{text-decoration:underline}
+			.welcomeBox a{font-size:13px; color:#8B0000;  text-decoration:none;  padding:0px 0px 0px 0px;}
+            .welcomeBox ul{ color:#000000; padding: 0cm 0cm 0.2cm 1cm;}
+			.welcomeBox ul li { padding:0cm 0cm 0.1cm 0.5cm;}
+
+
+
+
+.index{padding:21px 35px 37px 27px; 
+	   color:#000000;
+       font-size:14px Tahoma, Georgia, Arial, Helvetica, sans-serif; 
+       border-top:1px solid #bebebe;   overflow:hidden;}
+.index ul{ color:#000000; padding: 0cm 0cm 0.15cm 0.7cm;}
+.index ul li{padding: 0cm 0cm 0.1cm 0cm;}
+.index p{ padding: 0cm 0px 0.2cm 0cm;}
+.index img{ padding: 0px 0px -4px 0px;}
+.index a{ font-size:13px; color:#ee2e24;  text-decoration:none;  padding:0px 0px 0px 0px;}
+.index a:hover{ text-decoration:underline;}
+
+	/* ### FOOTER CONTAINER ### */
+	#footerCntr { overflow: hidden; background:url(./images/red_1.gif) left top repeat-x; height:40px;}
+	.footerBox{width:659px; margin:0px auto; color:#FFFFFF; text-align:right; padding:10px 120px 0px 0px; height:30px;}
+	
+	
+/* inner pages css start */
+
+h6{font:15px Arial, Helvetica, sans-serif; color:#9a0000; font-weight:bold; padding:0px 0px 5px 0px; margin:0px 0px 10px 0px;}
+.aboutcolumnzone{padding:20px 0px 16px 0px;}
+.aboutcolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.aboutcolumn2{width:48%; float:right; margin:0px 0px 10px 0px;}
+.abouticon{float:left; margin:0px 20px 0px 0px;}
+.insidereadmore{padding:10px 0px 10px 0px;}
+input.button{color:#000; background:#ffc850; font:bold 11px Arial, Helvetica, sans-serif; text-decoration:none; padding:10px 10px; margin:0px 5px 5px 0;	border:1px solid #5b7a92;}
+input.button:hover{cursor:pointer; color:#fff; background:#663300; border:1px solid #ffc850;}
+.project-img{float:right; margin-left:20px;	border: 3px solid #9a0000;}
+.whiteheading{font:30px Myriad Pro, Arial; color:#CBD76B; font-weight:100;	padding:0px; margin:25px 0px 20px 0px;}
+.ourprojectrow{margin-bottom:10px; border-bottom:1px dotted #9a0000; padding-bottom:10px; }
+.servicecolumnzone{padding:20px 0px 16px 0px;}
+.servicecolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.servicecolumn2{width:48%; float:right;	margin:0px 0px 10px 0px;}
+.blog-posted-row{padding:3px;}
+/* inner pages css ends */

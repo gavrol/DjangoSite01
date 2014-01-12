@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Django Functions {% endblock %}
+
+{% block content %}
+
+<table>
+{% for func in table_content %}
+    <tr><td>{{ func.name}} </td><td> {{func.description}}</td></tr>
+{% empty %}
+    <tr><td>The function description is empty.</td><td/></tr>
+{% endfor %}
+</table>
+
+
+{% endblock %}
+			
