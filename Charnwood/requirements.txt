@@ -1,8 +1,6 @@
-Cython==0.19.1
 Django==1.6
 MySQL-python==1.2.5
 PyRSS2Gen==1.0.0
-bonjour-py==0.3
 gunicorn==18.0
 gurobipy==5.5.0
 include-server==3.1-toolwhip.1
