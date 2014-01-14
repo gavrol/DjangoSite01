@@ -1,7 +1,7 @@
 from django.http import HttpResponse, Http404
 from django.shortcuts import render
 #from ASXstocks.models import Stock
-from forms import ContactForm
+from Charnwood.forms import ContactForm
 from django.http import HttpResponseRedirect
 
 #def Charnwood(request,template_name):

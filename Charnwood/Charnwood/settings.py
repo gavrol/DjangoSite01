@@ -21,10 +21,18 @@ SECRET_KEY = '=!)z#43)1%s4z@t)!%ei%27brpcmi-!*tesqc_uod^66w30%i+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
-TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ADMINS = (
+    ('Charnwood', 'charnwood@mopi.com.au'),
+    ('olena', 'olena@mopi.com.au'),
+)
+SEND_BROKEN_LINK_EMAILS = True
+
+
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -83,7 +91,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
-STATIC_ROOT = ''
+STATIC_ROOT = 'staticfiles'
 
 STATIC_URL = '/static/'
 
