@@ -4,7 +4,6 @@ PyRSS2Gen==1.0.0
 gunicorn==18.0
 mysql-connector-python==1.1.4
 patsy==0.1.0
-py2app==0.5.3
 python-dateutil==1.5
 pytz==2013b
 selenium==2.39.0
